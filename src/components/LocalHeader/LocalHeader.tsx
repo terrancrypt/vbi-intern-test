@@ -1,4 +1,4 @@
-const LocalHeader = () => {
+const LocalHeader: React.FC = () => {
   return <div>LocalHeader</div>;
 };
 
