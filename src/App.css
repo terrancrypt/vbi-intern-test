@@ -1,0 +1,15 @@
+/* Antd Tabs Modify */
+.ant-tabs-top>.ant-tabs-nav::before {
+    border-bottom: none !important;
+}
+
+/* CarList & CarCard Component In HomePage */
+.car-list:hover img {
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 200ms;
+}
+
+.car-list .car-card:hover img {
+    opacity: 1;
+}
