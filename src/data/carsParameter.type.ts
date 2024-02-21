@@ -32,7 +32,7 @@ export type CarsParameter = {
   };
   interior: {
     convenience: {
-      airCondition: boolean;
+      airCondition: boolean | string;
       auxiliary: number;
       powerWindows: boolean;
       rearViewWindows: boolean;

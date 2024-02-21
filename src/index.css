@@ -1,10 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Google Font */
+@font-face {
+    font-family: 'MazdaTypeTTMedium';
+    src: local('MazdaTypeTTMedium'), url('./src/assets/fonts/Mazda-Type-TT-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MazdaTypeTTRegular';
+    src: local('MazdaTypeTTRegular'), url('.src/assets/Mazda-Type-TT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
-    font-family: 'Philosopher', sans-serif;
     letter-spacing: 2.56px;
+}
+
+
+
+.font-mazda-medium {
+    font-family: "MazdaTypeTTMedium";
+}
+
+.font-mazda-regular {
+    font-family: "MazdaTypeTTRegular";
 }

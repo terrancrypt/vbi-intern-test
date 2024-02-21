@@ -3,7 +3,7 @@ import { SearchOutlined } from "@ant-design/icons";
 const GlobalHeader = () => {
   return (
     <div className="bg-[#101010]">
-      <div className="flex items-center justify-between py-[14px]">
+      <div className="flex items-center justify-between py-[14px] font-mazda-medium">
         {/* Mazda Logo */}
         <img
           src="/img/brand_mark_vertical_primary_mdp-01.svg"

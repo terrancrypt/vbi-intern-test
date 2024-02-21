@@ -36,7 +36,7 @@ const CarsList: React.FC = () => {
   }, []);
 
   return (
-    <div className="py-[64px] px-[16px]">
+    <div className="py-[64px] px-[16px] font-mazda-medium">
       <h2 className="text-center text-2xl py-[10px]">EXPLORE THE RANGE</h2>
       <div className="w-full">
         <Tab.Group>
